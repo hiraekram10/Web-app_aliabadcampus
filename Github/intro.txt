@@ -1,0 +1,24 @@
+_______________________First time
+
+• git config --global user.name "Your Name" – Set your commit username.
+• git config --global user.email "you@example.com" – Set your commit email.
+
+
+Start with creating a new repo in github
+
+git init – Turn an existing directory into a Git repository.
+git status – See modified files, staged files, and untracked files.
+git add index.html – Stage a specific file for the next commit
+git add . (for all files and folders)
+git commit -m "Your message" – Commit staged files with a descriptive message.
+git remote add origin <url>  (second last line from github new repo)
+git push -u origin <branch-name>  (main , master)
+
+
+
+To update changes
+
+git status (to check files changes)
+git add filename
+git commit -m "your comment"
+git push

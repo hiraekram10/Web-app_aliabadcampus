@@ -1,0 +1,40 @@
+/* #two{
+    color: purple ;
+}
+
+.one{
+    color:blue ;
+} */
+
+
+ul{
+    color: #72B281;
+}
+h1{
+    background-color: #2D3E54;
+}
+
+
+#unique{
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase; 
+}
+
+.para{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: purple;
+}
+
+
+/* #two{
+text-decoration-line: underline;
+text-decoration-color:green ;  
+text-decoration-style:wavy;
+text-decoration-thickness: 10px;
+
+} */

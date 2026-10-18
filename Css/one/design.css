@@ -1,0 +1,21 @@
+/*
+selector {
+    propert : value ;  //// declaration
+} */
+
+
+
+p{
+    color: aquamarine;
+}
+
+
+
+/* element selector */
+li , h2 {
+    color: green;
+}
+
+
+
+

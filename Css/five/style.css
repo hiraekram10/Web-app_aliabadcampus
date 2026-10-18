@@ -1,0 +1,48 @@
+
+/* html{
+    font-size:12px;  
+}
+
+div{
+    font-size: 10px;
+}
+li{
+    font-size: 2em;
+}
+
+
+h1{
+  font-size:1rem;
+} */
+
+
+.para{
+    /* font-size: 8rem;
+    font-weight: bold;
+    line-height:120px ;
+    word-spacing:2rem ;
+    letter-spacing: 3rem; */
+    /* text-align:justify */
+}
+
+
+.left{
+   vertical-align: middle;
+}
+
+.right{
+    vertical-align: middle;
+}
+
+
+.para2{
+    text-indent: 10rem;
+}
+
+/* #pp{
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  text-shadow: -1px -7px 4px rgb(255, 0, 0);  value negative referce to left, top
+text-shadow: 1px 7px 4px rgb(255, 0, 0); positive negative referce to right, bottom
+
+} */ 

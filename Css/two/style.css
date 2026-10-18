@@ -1,0 +1,80 @@
+/* li{
+    color: green;
+} */
+
+/* child selector */
+
+
+/* 
+ul > li {
+    color: yellowgreen;
+}
+
+
+div > p{
+    background-color: beige;
+} */
+
+/* decendant selector */
+
+ol  i{
+    color: red;
+}
+
+
+ol b{
+    color: purple;
+}
+
+
+/* adjacent sibling selector */
+/* p+i{
+    color: aquamarine;
+}
+
+i+u{
+    color: gray;
+} */
+
+
+/* General sibling selector */
+
+/* p~h3{
+    background-color: gray;
+} */
+
+
+
+#greet{
+    color: plum ;
+}
+.heading{
+    color: peru;
+}
+
+h1{
+    color: green ;
+}
+
+h1{
+    color: red ;
+   background-color:green
+}
+
+
+.heading{
+    color: palegreen ;
+   background-color:blue
+}
+
+
+h1{
+    color: yellow;
+   background-color:purple 
+}
+
+#greet{
+    color: powderblue;
+   background-color:beige
+}
+

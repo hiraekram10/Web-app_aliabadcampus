@@ -1,0 +1,25 @@
+/* element selector */
+/* h1{
+    color: blue;
+} */
+
+/* Universal selector */
+*{
+    color: cadetblue;  
+}
+/* class selector */
+.lists{
+    color: cadetblue;
+}
+
+.fruits {
+  color: blueviolet;
+}
+
+#fruit{
+    color: yellow;
+}
+
+.fruits{
+    color: red;
+}

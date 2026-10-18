@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
+@font-face {
+    font-family: 'something';
+    src: url(./fonts/Isometra-Regular.ttf);
+}
+
+/* h2{
+    font-family:'something'
+}
+
+
+p{
+    font-family: "Bitcount Ink";
+  
+} */
+h3{
+    font-family: Playwrite CA Guides;
+}
+
+ul{
+    font-family:'Edu QLD Hand';
+    font-weight:700;
+}
+
+/* 
+.para{
+  font-size:72px;
+}
+
+h1{
+    font-size: 400px;
+} */
+
+
+
+
+.para{
+    font-size:32px;
+  }
+  
+ span{
+      font-size: 2em;
+     
+  }
+
+div{
+    font-size: 2em;
+}
+  ul{
+    font-size:2em;
+  }
+
+
+  li{
+    font-size: 1em;
+  }
+
+
+
+
