@@ -1,0 +1,170 @@
+
+form{
+ 
+
+        background-image: linear-gradient(
+          0deg,
+          hsl(191deg 100% 83%) 0%,
+          hsl(192deg 100% 82%) 6%,
+          hsl(194deg 100% 81%) 13%,
+          hsl(197deg 100% 81%) 21%,
+          hsl(200deg 100% 82%) 29%,
+          hsl(204deg 100% 82%) 37%,
+          hsl(209deg 100% 84%) 45%,
+          hsl(217deg 100% 85%) 53%,
+          hsl(228deg 100% 87%) 61%,
+          hsl(243deg 100% 89%) 68%,
+          hsl(258deg 100% 87%) 75%,
+          hsl(272deg 95% 86%) 82%,
+          hsl(288deg 76% 83%) 87%,
+          hsl(305deg 70% 81%) 92%,
+          hsl(318deg 86% 81%) 97%,
+          hsl(328deg 100% 81%) 100%
+        );
+     
+         width: 45%;
+    margin: 0px auto;
+    padding: 20px;
+    height:auto;
+    box-sizing: border-box;
+    
+}
+.heading{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    /* background-color: aquamarine; */
+   text-align: center;
+}
+.box{
+    /* background-color: aqua; */
+    display: block;
+    margin-top:10px;
+    padding: 10px 0px;
+
+    
+
+
+}
+.full {
+    width:95%;
+    padding:5px 2px;
+    font-size: 1.1rem;
+    
+}
+
+.text2,.text3,.text4,.text5{
+    display: inline-block;
+    width: 45%;
+}
+.half{
+    width: 100%;
+    /* margin-left:5px;
+    margin-right:5px; */
+    padding:5px 2px;
+    font-size: 1.1rem;
+    
+  
+}
+
+.labeltext{
+    display: inline-block;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    /* background-color: green; */
+    letter-spacing:0.1rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    
+
+}
+.fristInp{
+/* background-color: blue; */
+margin-right: 10px;
+}
+.secondInp {
+    /* background-color: yellow; */
+    padding-left: 10px;
+ 
+    margin-left: 12px;
+}
+
+.verifyBox{
+    background-color: white;
+    width: 30%;
+    margin: 10px auto;
+    padding: 20px 2px;
+}
+
+.verifyBox span,img,input{
+    vertical-align: middle;
+
+}
+
+.verifyBox>img {
+    margin-left: 15px;
+}
+.submit{
+    /* background-color: green; */
+    width: 10%;
+    margin: 2px auto;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+
+/* .image{
+    position:relative;
+   top: 10px;
+   right:10px
+   
+} */
+
+/* .image{
+    width: 100px;
+    position:absolute;
+    right: 0px;
+    top:50%
+ 
+   
+} */
+/* .container{
+    width: 60vw;
+    border: 3px solid black;
+    height: 600px;
+    position: absolute;
+
+}
+.image{
+    width: 100px;
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+ 
+   
+} */
+
+.container{
+    width: 40vw;
+    border: 3px solid black;
+    height: 400px;
+    position: relative ;
+    
+}
+
+.container2{
+    width: 40vw;
+    background-color: blue;
+    height: 400px;
+ 
+
+}
+
+
