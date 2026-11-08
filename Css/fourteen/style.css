@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   font-family: "Black Ops One", system-ui;
+}
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 30%;
+    -webkit-animation-name: rotateOut;
+    animation-name: rotateOut;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration:1s
+}
+
+
+
+
+
+.main{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+}
+.cards{
+    /* background-color: beige; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center ;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-width: 340px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+      padding: 8px;
+      border: 1px solid red;
+      border-radius: 10px;
+      
+}
+
+.card div,img{
+  width: 100%;
+  border-radius: 15px;
+}
+.card h1{
+  font-size:1.6rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.card p {
+    font-family: sans-serif;
+    color: #3C3C3C;
+  font-size: 1rem;
+  font-weight: 500;
+  word-spacing: 0.1rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+
+.bottom-sec{
+    /* background-color: aqua; */
+    margin-top: 5px;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bottom-sec span{
+/* background-color: green; */
+width: 50%;
+font-size: 1.5rem;
+
+}
+.bottom-sec > .btn{
+/* background-color: rgb(128, 51, 0); */
+width: 50%;
+text-align: right;
+
+}
+.bottom-sec button{
+    background-color: #EF4B4B;
+ padding: 10px 20px;
+    border: none;
+ font-size: 2rem;
+ border-radius: 10px;
+   color: white;
+   
+}
+.new{
+  /* background-color: green; */
+  position: relative;
+   
+}
+
+.new .best{
+
+  position:absolute;
+  width: 70px;
+  height: 70px;
+  top: -20px;
+  left:-20px;
+  -webkit-animation-name: rotateOut;
+    animation-name: rotateOut;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration:1s
+  
+}
+
+
+/* Media query */
+@media screen and (width <= 885px) {
+  .cards{
+    background: #c50707;
+
+    width: 90%;
+  }
+  .card{
+  width: 300px;
+  }
+}
+/* _____________________________________________Second  section_____________________________ */
+.cards-2{
+/* 
+    background-color: beige; */
+    width: 80%;
+    margin: 0 auto;
+
+  
+
+}
+.cards-2 img{
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (width <= 699px) {
+  .cards{
+    /* background-color: gray; */
+    width: 100%;
+  }
+  .card{
+  width: 200px;
+  min-width: 100px;
+  
+  }
+  .card h1{
+    font-size:1rem ;
+  }
+  .card p{
+    font-size: 0.7rem;
+  }
+  .card button{
+     padding: 8px 10px;
+     font-size: 1rem;
+     
+  }
+  .bottom-sec > span{
+    font-size: 1rem;
+  }
+
+
+
+
+
+}
