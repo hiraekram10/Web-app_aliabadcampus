@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue ;
+}
+
+.theme-danger{
+    background-color: gray;
+}
+
+.drawer{
+    background-color: aliceblue;
+}
+
+.btn-close{
+    color: black;
+}
+/* .drawer-body{
+    color: black;
+} */
+
+.mytheme{
+background-color: gray;
+}
+.open{
+
+}
+
+.main{
+    text-align: right;
+}
+.drawer-body{
+    background-color: yellow;
+}
+.navbar-nav{
+    background-color: green;
+}
+.good{
+    background-color: blueviolet;
+}
